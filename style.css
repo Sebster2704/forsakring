@@ -1,9 +1,7 @@
 .pil {
     font-size: 120px; 
+    color: black; 
 }
 body {
     color: blue;
-}
-.pil {
-    color: black; 
 }
