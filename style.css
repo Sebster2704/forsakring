@@ -1,3 +1,9 @@
 .pil {
     font-size: 120px; 
 }
+body {
+    color: blue;
+}
+.pil {
+    color: black; 
+}
