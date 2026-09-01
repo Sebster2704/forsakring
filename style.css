@@ -53,14 +53,14 @@ body {
 
 .ansok-pil{
     position: absolute;
-    right: 540px;
-    top: 680px;
+    right: 700px;
+    top: 650px;
     font-size: 120px;
     color: #4c1d95;
 }
 
 .form-box button {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 25px;
     width: 350px;
     height: 70px;
