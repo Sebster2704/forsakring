@@ -24,6 +24,31 @@ body {
     top: 100px;
     border-radius: 24px;
     border: 1px solid #555;
+
+
+.form-box label,
+.form-box input {
+ display: block;
 }
 
+.form-box input{
+    width: 400px;
+    height: 40px;
+}
 
+.form-box label {
+    margin-top: 20px;
+}
+
+.form-box input {
+    border:1px solid #aaa;
+    border-radius: 8px;
+}
+
+.form-box input {
+    padding: 10px;
+}
+
+.form-box input {
+    box-sizing: border-box;
+}
