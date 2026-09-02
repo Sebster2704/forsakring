@@ -1,9 +1,14 @@
+* {
+        font-family: "Trebuchet MS", sans-serif;
+}
+
+
 .pil {
     font-size: 120px; 
     color: black; 
 }
 body {
-    color: blue;
+    color: #f5f5f5;
 }
 .ar {
     color: blue;
@@ -122,19 +127,18 @@ h1{
 }
 
 .start-button {
+    margin-top: 35px;
     width: 180px;
-    height: 52px;
-    border-radius: 14px;
-    border: 1px solid #ec4899;
-    background: #1b1b20;
-    color: white; 
-    font-size: 16px;
-    position: absolute;
-    right: 15%;
-    top: 45%;
-    transition: 0.2s;
-    box-shadow: 0 0 20px rgba(236, 72, 153, 0.15);
-}
+    height: 55px;
+    border: 2px solid #3a3a3a;
+    border-radius: 8px;
+    background: #171719;
+    color: #f3ead8;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    }
+
 
 .start-button:hover {
 background: #ec4899;
@@ -169,7 +173,7 @@ background: #ec4899;
     top: 20%;
     width: 380px; 
     height: 460px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 2px solid #3a3a3a;
     border-radius: 28px;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(8px);
@@ -209,7 +213,7 @@ background: rgba(255, 255, 255, 0.12)
     padding: 18px 20px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
-    background: rgba(236, 72, 153, 0.15);
+    background: #e9e3d6;
 }
 
 .insurance-card::before {
