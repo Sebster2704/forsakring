@@ -73,7 +73,7 @@ body {
 
 .benefits {
     list-style: none;
-    pudding: 0;
+    padding: 0;
     margin-top: 60px;
     margin-left: 0;
 }
