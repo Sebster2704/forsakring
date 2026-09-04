@@ -82,28 +82,28 @@ body {
 .benefits {
     list-style: none;
     padding: 0;
-    margin-top: 60px;
+    margin-top: 45px;
     margin-left: 0;
 }
 
 .benefits li{
 display:flex;
 align-items: center;
-gap: 18px;
-margin-bottom: 24px;
-font-size: 22px;
+gap: 14px;
+margin-bottom: 18px;
+font-size: 20px;
 }
 
 .check {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     background-color: #9b5275;
     color: white;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold; 
     flex-shrink: 0;
 }
@@ -111,7 +111,7 @@ font-size: 22px;
 .logo {
     position: absolute;
     top: 30px;
-    left: 40px;
+    left: 6vw;
     font-size: 28px;
     color: #ffffff;
     font-weight: 600;
@@ -119,9 +119,9 @@ font-size: 22px;
 }
 
 h1{
-    margin-top: 150px;
+    margin-top: 135px;
     font-size: 72px;
-    max-width: 700px;
+    max-width: 650px;
     margin-left: 0px;
     line-height: 1.05;
     letter-spacing: -2px;
@@ -134,19 +134,26 @@ h1{
     margin-top: 35px;
     width: 180px;
     height: 55px;
-    border: 2px solid #3a3a3a;
+    border: 2px solid #9b5275;
     border-radius: 8px;
     background: #171719;
     color: #f3ead8;
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 4px 4px 0 #29292d;
+    box-shadow: 4px 4px 0 #9b5275;
+    transition: 0.2s ease;
+    display: inline-flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+    
     }
 
 
 .start-button:hover {
     background: #f05aa7;
+      color: #151519;
 }
 
 .hero {
@@ -175,7 +182,7 @@ h1{
 .insurance-visual {
     position: absolute; 
     right: 8%;
-    top: 16%;
+    top: 14%;
     width: 380px; 
     height: 650px;
     border: 2px solid #29292d;
@@ -187,9 +194,9 @@ h1{
 
 .insurance-visual > span {
     display: block;
-    padding: 28px;
+    padding: 14px 28px 8px;
     color: #e8e2d7;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2px;
     opacity: 0.6;
 }
@@ -215,37 +222,28 @@ background: rgba(255, 255, 255, 0.12)
 }
 
 .insurance-card {
-    margin: 8px 28px;
-    padding: 10px 16px;
-    border: 2px solid #3a3a3a;
+    margin: 6px 10px;
+    padding: 7px 16px;
+    border: 1px solid #3a3a3a;
     border-radius: 12px;
     background: #e7dfd0;
     color: #29292d;
     font-weight: 700;
 }
 
-.insurance-card::before {
-    content: "";
-    display: block;
-    width: 55px;
-    height: 3px;
-    margin-bottom: 16px;
-    background: #f05aa7;
-    border-radius: 4px;
-}
 
 .demo-title {
-    padding: 0 28px 20px;
+    padding: 0 28px 10px;
     color: #e8e2d7;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
 }
 
 .demo-section small {
     display: block; 
-    margin-bottom: 14px;
-    color: #9b5275;
-    font-size: 11px;
+    margin-bottom: 8px;
+    color: #f05aa7;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
@@ -253,12 +251,12 @@ background: rgba(255, 255, 255, 0.12)
 .demo-section > div {
     color: #e8e2d7;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .demo-section {
-    margin: 16px 28px 0;
-    padding-top: 12px;
+    margin: 10px 28px 0;
+    padding-top: 8px;
     border-top: 1px solid rgba(232, 226, 215, 0.12);
 }
 
@@ -276,18 +274,18 @@ background: rgba(255, 255, 255, 0.12)
 }
 
 .demo-label {
-    margin: -18px 28px 20px;
+    margin: -12px 28px 20px;
     font-size: 12px;
     color: #e8e2d7;
     opacity: 0.5;
 }
 
 .review-item {
-    padding: 9px 12px;
-    border: 1px solid #3a3a3a;
-    border-radius: 8px;
-    font-size: 14px;
-    margin-bottom: 6px;
+    padding: 6px 12px;
+    border: 1px solid rgba(232, 226, 215, 0.12);
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 4px;
 }
 
 .review-dot {
@@ -308,5 +306,65 @@ background: rgba(255, 255, 255, 0.12)
 .life-tags {
    margin-left: -10px;
     display: flex;
-    gap: 10px;
+    gap: 8px;
+}
+
+.insurance-group {
+    margin: 5px 28px 0p;
+    padding: 7px 12px;
+    border: 1px solid rgba(232, 226, 215, 0.18);
+    border-radius: 14px;
+}
+
+.insurance-card small {
+    display: block;
+    margin-top: 3px;
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.life-tags span::before {
+ content: "•";
+    color: #9b5275;
+    margin-right: 5px;
+}
+
+.review-item small {
+    display: block;
+    margin: 3px 0 0 22px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #e8e2d7;
+    opacity: 0.6;
+}
+
+.review-icon {
+    display: inline-block;
+    width: 18px;
+    color: #f05aa7;
+    font-weight: 700;
+}  
+
+.review-intro {
+    margin: -2px 0 7px;
+    font-size: 11px;
+    color: #e8e2d7;
+    opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+    h1 {
+    font-size: 48px;
+    max-width: 100%;
+}
+
+.benefits li {
+    font-size: 17px;
+}
+
+    .insurance-visual {
+        display: none;
+    }
 }
